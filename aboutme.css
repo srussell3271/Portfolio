@@ -1,0 +1,45 @@
+body{
+    background-color:black;
+    
+}
+
+.intro{
+    font-size:15px;
+}
+#name{
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Indie Flower', cursive;
+    color:navy;
+    background-color:pink;
+}
+#age_height{
+    color:teal;
+    font-size: medium;
+    font-family: cursive;
+    background-color: yellow;
+}
+
+h3{
+    color:white;
+    background-color:grey;
+}
+
+    
+.things_to_know{
+    font-style: oblique;
+    font-family: 'Dancing Script', cursive;
+    color:#42f44e;
+    background-color: #178bd3;
+}
+h4{
+    color:white;
+    background-color:grey;
+}
+
+.someideas{
+    font-style: oblique;
+    font-family: 'Dancing Script', cursive;
+    color:#42f44e;
+    background-color: #178bd3;
+}

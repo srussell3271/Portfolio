@@ -1,0 +1,79 @@
+body{
+    background-color:black;
+    }
+.row{   
+    background-color:black;
+    color:white;
+    font-size:20px;
+    /*display:flex;*/
+    /*flex-direction:column;*/
+}
+.headshot{
+    width: auto
+    height: 100px;
+    border-radius: 55%;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    border:5px solid white;
+    margin:15px;
+   
+}
+.mid{
+    background-color:pink;
+    color:black;
+    align-items:center;
+    font-size:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.aboutme{
+    border:1px solid black;   
+}
+/*.rowcontact{*/
+    /*display:flex;*/
+    /*justify-content: center;*/
+/*}*/
+.rowfooter{
+    border:10px solid #42f4f1;
+    display:flex;
+    justify-content:space-between;
+    }
+.item{
+    color:white;
+    background-color:black;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    border:5px solid pink;
+    margin:15px;
+    }
+h1{
+    color:blue;
+    font-size:54px;
+    }
+.rowmid{ 
+    display:flex;
+    justify-content:space-around;
+    }
+    
+.rowaboutme{
+    display:flex;
+    justify-content:center;
+    /*width:75%;*/
+    }
+.item2{
+    background-color:pink;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    border:5px solid white;
+    margin:15px;
+    } 
+.house{
+    padding:10px;
+    border:5px solid teal;
+    margin:15px;
+    
+    }
+    
