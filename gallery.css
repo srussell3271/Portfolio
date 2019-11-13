@@ -64,7 +64,8 @@ body{
 .img{
     display:flex;
     justify-content: space-around;
-    /* height: */
+    height:195px;
+    width: 130px;
 }
 .websites{
     color:lime;
