@@ -80,7 +80,9 @@ h1{
 .row {
   margin: 8px -16px;
 }
-
+* {
+  box-sizing: border-box;
+}
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
@@ -94,15 +96,15 @@ h1{
 }
 
 /* Clear floats after rows */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 /* Content */
 .content {
-  background-color: white;
+  background-color: tan;
   padding: 10px;
 }
 
