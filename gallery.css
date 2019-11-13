@@ -100,6 +100,7 @@ h1{
 .column {
   float: left;
   width: 25%;
+  margin: 8px;
 }
 
 /* Clear floats after rows */
