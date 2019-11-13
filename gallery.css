@@ -64,6 +64,7 @@ body{
 .img{
     display:flex;
     justify-content: space-around;
+    /* height: */
 }
 .websites{
     color:lime;
@@ -75,7 +76,8 @@ body{
 h1{
     color:red;
     }
-    .row {
+
+.row {
   margin: 8px -16px;
 }
 
@@ -108,5 +110,10 @@ h1{
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
   }
 }
