@@ -104,11 +104,11 @@ h1{
 }
 
 /* Clear floats after rows */
-/* .row:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
-} */
+}
 
 /* Content */
 .content {
