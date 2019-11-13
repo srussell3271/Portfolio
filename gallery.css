@@ -69,7 +69,7 @@ body{
     width: 130px;
 }
 .websites{
-    color:lime;
+    color:rgb(12, 120, 207);
     background-color:transparent;
     border: 2px solid chartreuse;
     padding:2px;
@@ -82,6 +82,7 @@ body{
 
 h1{
     color:red;
+    text-shadow:white 1px 2px 2px;
     }
 
 .row {
@@ -94,6 +95,7 @@ h1{
 .row,
 .row > .column {
   padding: 8px;
+  margin: 10px;
 }
 
 /* Create four equal columns that floats next to each other */
@@ -122,8 +124,8 @@ h1{
     width: 50%;
   }
 }
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
-}
+} */
