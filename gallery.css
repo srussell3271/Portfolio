@@ -73,6 +73,11 @@ body{
     padding:2px;
 
 }
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
 h1{
     color:red;
     }
