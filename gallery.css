@@ -76,8 +76,9 @@ body{
 
 }
 .main {
-  max-width: 1000px;
+  max-width: auto;
   margin: auto;
+  height: 50%;
 }
 
 h1{
@@ -102,6 +103,7 @@ h1{
 .column {
   float: left;
   width: 25%;
+  height: 25%;
   margin: 8px;
 }
 
@@ -122,6 +124,7 @@ h1{
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
+    height:50%;
   }
 }
 /* @media screen and (max-width: 600px) {
