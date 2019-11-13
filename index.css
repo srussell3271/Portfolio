@@ -99,6 +99,7 @@ body{
     border:10px solid #42f4f1;
     display:flex;
     justify-content:space-between;
+    font-size:12px;
     }
 .item{
     color:white;
