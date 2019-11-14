@@ -88,6 +88,8 @@ h1{
 
 .row {
   margin: 8px;
+  height:25%;
+  width:25%/;
 }
 * {
   box-sizing: border-box;
