@@ -81,13 +81,13 @@ body{
   max-width: auto;
   margin: auto;
   /* height: 50%; */
-/* } 
+/* }  */
 
 h1{
     color:red;
     text-shadow:white 1px 2px 2px;
     }
-
+/*
 .row {
   margin: 8px;
   height:25%;
@@ -171,6 +171,7 @@ h1 {
 .column {
   float: left;
   width: 25%;
+  margin: 10%;
 }
 
 /* Clear floats after rows */ 
