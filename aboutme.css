@@ -98,8 +98,10 @@ h3{
 
 .things_to_know{
     font-style: oblique;
+    border: orange dashed 5px;
     font-family: 'Dancing Script', cursive;
     color:#42f44e;
+    text-align: center;
     /* background-color: #178bd3; */
 }
 h4{
@@ -109,6 +111,8 @@ h4{
 
 .someideas{
     font-style: oblique;
+    border: dashed orange 5px;
+    text-align: center;
     font-family: 'Dancing Script', cursive;
     color:#42f44e;
     /* background-color: #178bd3; */
