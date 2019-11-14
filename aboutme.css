@@ -102,6 +102,8 @@ h3{
     font-family: 'Dancing Script', cursive;
     color:#42f44e;
     text-align: center;
+    text-size:25px;
+
     /* background-color: #178bd3; */
 }
 h4{
@@ -115,5 +117,7 @@ h4{
     text-align: center;
     font-family: 'Dancing Script', cursive;
     color:#42f44e;
+    text-size:25px;
+
     /* background-color: #178bd3; */
 }
