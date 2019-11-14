@@ -81,7 +81,7 @@ body{
   max-width: auto;
   margin: auto;
   /* height: 50%; */
-/* } */
+/* } 
 
 h1{
     color:red;
@@ -97,45 +97,46 @@ h1{
   box-sizing: border-box;
 }
 /* Add padding BETWEEN each column (if you want) */
-.row,
+/* .row,
 .row > .column {
   padding: 8px;
   margin: 10px;
 }
 
 /* Create four equal columns that floats next to each other */
-.column {
+/* .column {
   float: left;
   width: 25%;
   height: 25%;
   margin: 8px;
-}
+} */
 
 /* Clear floats after rows */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 /* Content */
-.content {
+/* .content {
   background-color: tan;
   padding: 10px;
-}
+} */
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .column {
     width: 50%;
     height:50%;
   }
-}
+} */ */
 /* @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
-} */ */
+} */ 
+
 
 
 
