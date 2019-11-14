@@ -75,7 +75,7 @@ h1{
 }
 h2{
     font-size: 20px;
-    color:aquamarine;
+    color:navy;
     font-family: 'Liu Jian Mao Cao', cursive;
 
 }
@@ -118,4 +118,6 @@ h3{
     background-color: #cae8ca;
     border: #8eb8d4 dotted 2px;
 
+}
+button{
 }
