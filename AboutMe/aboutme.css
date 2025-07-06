@@ -1,0 +1,124 @@
+/* Base Reset */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Navigation Styles */
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #2e3a59;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.nav-list li {
+    margin: 0 20px;
+}
+
+.nav-list a {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-list a:hover {
+    background-color: #8eb8d4;
+    color: #000;
+}
+
+/* Main Content */
+.intro {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    font-style: italic;
+    font-family: 'Indie Flower', cursive;
+}
+
+#nickname {
+    font-size: 20px;
+    color: #e91e63;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 30px;
+}
+
+/* Profile Section */
+.profile-section {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-left: 6px solid #2e3a59;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.profile-section h3 {
+    font-size: 22px;
+    color: #2e3a59;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.profile-section ul {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.profile-section li {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+/* Optional Accent Styles */
+.things_to_know,
+.someideas {
+    font-family: 'Dancing Script', cursive;
+    color: #2e7d32;
+    text-align: center;
+    border: 3px dashed #f57c00;
+    padding: 15px;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    margin-top: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-section {
+        margin: 20px;
+        padding: 20px;
+    }
+}
